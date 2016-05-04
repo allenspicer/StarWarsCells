@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		9F3474D01CDA967400AAFF54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474CF1CDA967400AAFF54 /* main.m */; };
 		9F3474D31CDA967400AAFF54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474D21CDA967400AAFF54 /* AppDelegate.m */; };
-		9F3474D61CDA967400AAFF54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474D51CDA967400AAFF54 /* ViewController.m */; };
 		9F3474D91CDA967400AAFF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3474D71CDA967400AAFF54 /* Main.storyboard */; };
 		9F3474DB1CDA967400AAFF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3474DA1CDA967400AAFF54 /* Assets.xcassets */; };
 		9F3474DE1CDA967400AAFF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3474DC1CDA967400AAFF54 /* LaunchScreen.storyboard */; };
+		9F3474E61CDA9E8700AAFF54 /* characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F3474E51CDA9E8700AAFF54 /* characters.json */; };
+		9F3474EC1CDAA2E500AAFF54 /* DroidTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474EB1CDAA2E500AAFF54 /* DroidTableViewCell.m */; };
+		9F3474F51CDAA34600AAFF54 /* DarkSideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474F41CDAA34600AAFF54 /* DarkSideTableViewCell.m */; };
+		9F3474F81CDAA38200AAFF54 /* LightSideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474F71CDAA38200AAFF54 /* LightSideTableViewCell.m */; };
+		9F3474FB1CDAA3BA00AAFF54 /* UndecidedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3474FA1CDAA3BA00AAFF54 /* UndecidedTableViewCell.m */; };
+		9F3475071CDAA6E200AAFF54 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3475061CDAA6E200AAFF54 /* TableViewController.m */; };
+		9F34750A1CDAAF5300AAFF54 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3475091CDAAF5300AAFF54 /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,23 @@
 		9F3474CF1CDA967400AAFF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F3474D11CDA967400AAFF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F3474D21CDA967400AAFF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F3474D41CDA967400AAFF54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F3474D51CDA967400AAFF54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F3474D81CDA967400AAFF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F3474DA1CDA967400AAFF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3474DD1CDA967400AAFF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3474DF1CDA967400AAFF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3474E51CDA9E8700AAFF54 /* characters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characters.json; sourceTree = SOURCE_ROOT; };
+		9F3474EA1CDAA2E500AAFF54 /* DroidTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroidTableViewCell.h; sourceTree = "<group>"; };
+		9F3474EB1CDAA2E500AAFF54 /* DroidTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DroidTableViewCell.m; sourceTree = "<group>"; };
+		9F3474F31CDAA34600AAFF54 /* DarkSideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkSideTableViewCell.h; sourceTree = "<group>"; };
+		9F3474F41CDAA34600AAFF54 /* DarkSideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkSideTableViewCell.m; sourceTree = "<group>"; };
+		9F3474F61CDAA38200AAFF54 /* LightSideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightSideTableViewCell.h; sourceTree = "<group>"; };
+		9F3474F71CDAA38200AAFF54 /* LightSideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightSideTableViewCell.m; sourceTree = "<group>"; };
+		9F3474F91CDAA3BA00AAFF54 /* UndecidedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndecidedTableViewCell.h; sourceTree = "<group>"; };
+		9F3474FA1CDAA3BA00AAFF54 /* UndecidedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UndecidedTableViewCell.m; sourceTree = "<group>"; };
+		9F3475051CDAA6E200AAFF54 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9F3475061CDAA6E200AAFF54 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9F3475081CDAAF5300AAFF54 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		9F3475091CDAAF5300AAFF54 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +75,21 @@
 		9F3474CD1CDA967400AAFF54 /* StarWarsCells */ = {
 			isa = PBXGroup;
 			children = (
+				9F3474E51CDA9E8700AAFF54 /* characters.json */,
 				9F3474D11CDA967400AAFF54 /* AppDelegate.h */,
 				9F3474D21CDA967400AAFF54 /* AppDelegate.m */,
-				9F3474D41CDA967400AAFF54 /* ViewController.h */,
-				9F3474D51CDA967400AAFF54 /* ViewController.m */,
+				9F3475051CDAA6E200AAFF54 /* TableViewController.h */,
+				9F3475061CDAA6E200AAFF54 /* TableViewController.m */,
+				9F3474F91CDAA3BA00AAFF54 /* UndecidedTableViewCell.h */,
+				9F3474FA1CDAA3BA00AAFF54 /* UndecidedTableViewCell.m */,
+				9F3474F61CDAA38200AAFF54 /* LightSideTableViewCell.h */,
+				9F3474F71CDAA38200AAFF54 /* LightSideTableViewCell.m */,
+				9F3474F31CDAA34600AAFF54 /* DarkSideTableViewCell.h */,
+				9F3474F41CDAA34600AAFF54 /* DarkSideTableViewCell.m */,
+				9F3474EA1CDAA2E500AAFF54 /* DroidTableViewCell.h */,
+				9F3474EB1CDAA2E500AAFF54 /* DroidTableViewCell.m */,
+				9F3475081CDAAF5300AAFF54 /* Character.h */,
+				9F3475091CDAAF5300AAFF54 /* Character.m */,
 				9F3474D71CDA967400AAFF54 /* Main.storyboard */,
 				9F3474DA1CDA967400AAFF54 /* Assets.xcassets */,
 				9F3474DC1CDA967400AAFF54 /* LaunchScreen.storyboard */,
@@ -140,6 +168,7 @@
 				9F3474DE1CDA967400AAFF54 /* LaunchScreen.storyboard in Resources */,
 				9F3474DB1CDA967400AAFF54 /* Assets.xcassets in Resources */,
 				9F3474D91CDA967400AAFF54 /* Main.storyboard in Resources */,
+				9F3474E61CDA9E8700AAFF54 /* characters.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3474D61CDA967400AAFF54 /* ViewController.m in Sources */,
+				9F3474F81CDAA38200AAFF54 /* LightSideTableViewCell.m in Sources */,
+				9F3474F51CDAA34600AAFF54 /* DarkSideTableViewCell.m in Sources */,
+				9F3474FB1CDAA3BA00AAFF54 /* UndecidedTableViewCell.m in Sources */,
+				9F34750A1CDAAF5300AAFF54 /* Character.m in Sources */,
 				9F3474D31CDA967400AAFF54 /* AppDelegate.m in Sources */,
 				9F3474D01CDA967400AAFF54 /* main.m in Sources */,
+				9F3474EC1CDAA2E500AAFF54 /* DroidTableViewCell.m in Sources */,
+				9F3475071CDAA6E200AAFF54 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

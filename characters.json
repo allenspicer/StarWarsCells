@@ -1,39 +1,44 @@
-{
-  "characters": [
+[
     {
       "name": "CHEWBACCA",
       "value": "chewie.png",
-      "description": "Lovable furball"
+      "description": "Lovable furball",
+      "type": "Undecided"
     },
     {
       "name": "BB-8",
       "value": "bb8.png",
-      "description": "#bowling ball gone rouge"
+      "description": "#bowling ball gone rouge",
+      "type": "Droid"
     },
     {
       "name": "KYLO REN",
       "value": "kylo.png",
-      "description": "the future of evil"
+      "description": "the future of evil",
+      "type": "DarkSide"
     },
     {
       "name": "FINN",
       "value": "finn.png",
-      "description": "born again hero"
+      "description": "born again hero",
+      "type": "Undecided"
     },
     {
       "name": "REY",
       "value": "rey.png",
-      "description": "Natalie Portman's replacement"
+      "description": "Natalie Portman's replacement",
+      "type": "LightSide"
     },
     {
       "name": "HAN",
       "value": "han.png",
-      "description": "Smuggler and lady-killer"
+      "description": "Smuggler and lady-killer",
+      "type": "Undecided"
     },
     {
       "name": "ADMIRAL ACKBAR",
       "value": "ackbar.png",
-      "description": "'It's a TRAP!'"
-    },
-
+      "description": "'It's a TRAP!'",
+      "type": "LightSide"
+    }
   ]

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UndecidedTableViewCell.h
 //  StarWarsCells
 //
 //  Created by Allen Spicer on 5/4/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UndecidedTableViewCell : UITableViewCell
 
 @end
-
