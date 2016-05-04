@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "name": "CHEWBACCA",
+      "value": "chewie.png",
+      "description": "Lovable furball"
+    },
+    {
+      "name": "BB-8",
+      "value": "bb8.png",
+      "description": "#bowling ball gone rouge"
+    },
+    {
+      "name": "KYLO REN",
+      "value": "kylo.png",
+      "description": "the future of evil"
+    },
+    {
+      "name": "FINN",
+      "value": "finn.png",
+      "description": "born again hero"
+    },
+    {
+      "name": "REY",
+      "value": "rey.png",
+      "description": "Natalie Portman's replacement"
+    },
+    {
+      "name": "HAN",
+      "value": "han.png",
+      "description": "Smuggler and lady-killer"
+    },
+    {
+      "name": "ADMIRAL ACKBAR",
+      "value": "ackbar.png",
+      "description": "'It's a TRAP!'"
+    },
+
+  ]
