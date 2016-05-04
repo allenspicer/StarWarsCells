@@ -19,7 +19,7 @@
         aCharacter.name = [characterDict objectForKey:@"name"];
         aCharacter.type = [characterDict objectForKey:@"name"];
         aCharacter.image = [characterDict objectForKey:@"value"];
-        aCharacter.description = [characterDict objectForKey:@"description"];
+        aCharacter.desc = [characterDict objectForKey:@"description"];
     }
     return aCharacter;
     

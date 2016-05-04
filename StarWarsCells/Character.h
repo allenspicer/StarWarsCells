@@ -14,7 +14,7 @@
 @property(nonatomic) NSString *name;
 @property(nonatomic) NSString *type;
 @property(nonatomic) NSString *image;
-@property(nonatomic) NSString *description;
+@property(nonatomic) NSString *desc;
 
 + (Character *)characterWithDictionary:(NSDictionary *) characterDict;
 
