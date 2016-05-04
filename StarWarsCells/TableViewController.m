@@ -76,7 +76,7 @@
     }
 
     
-//    UITableViewCell *cell:
+    UITableViewCell *cell;
 //    
 //    = [tableView dequeueReusableCellWithIdentifier:@"UndecidedIdentifier" forIndexPath:indexPath];
 //    
