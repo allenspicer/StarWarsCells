@@ -67,30 +67,40 @@
     if ([aCharacter.type isEqualToString:@"LightSide"]) {
         LightSideTableViewCell *lightSideCell = (LightSideTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"LightSideIdentifier" forIndexPath:indexPath];
         lightSideCell.textLabel.text = aCharacter.name;
+        lightSideCell.textLabel.textColor = [UIColor whiteColor];
+        lightSideCell.backgroundColor = [UIColor blueColor];
         return lightSideCell;
     }
 
     if ([aCharacter.type isEqualToString:@"DarkSide"]) {
         DarkSideTableViewCell *darkSideCell = (DarkSideTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"DarkSideIdentifier" forIndexPath:indexPath];
         darkSideCell.textLabel.text = aCharacter.name;
+        darkSideCell.textLabel.textColor = [UIColor redColor];
+        darkSideCell.backgroundColor = [UIColor blackColor];
         return darkSideCell;
     }
     
     if ([aCharacter.type isEqualToString:@"Undecided"]) {
         UndecidedTableViewCell *undecidedCell = (UndecidedTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"UndecidedIdentifier" forIndexPath:indexPath];
         undecidedCell.textLabel.text = aCharacter.name;
+        undecidedCell.textLabel.textColor = [UIColor greenColor];
+        undecidedCell.backgroundColor = [UIColor grayColor];
         return undecidedCell;
     }
     
     if ([aCharacter.type isEqualToString:@"Droid"]) {
         DroidTableViewCell *droidCell = (DroidTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"DroidIdentifier" forIndexPath:indexPath];
         droidCell.textLabel.text = aCharacter.name;
+        droidCell.textLabel.textColor = [UIColor grayColor];
+        droidCell.backgroundColor = [UIColor darkGrayColor];
         return droidCell;
+
     }
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"defaultCellIdentifier" forIndexPath:indexPath];
     
         cell.textLabel.text = aCharacter.name;
+    cell.detailTextLabel.text = aCharacter.desc;
         //  cell.imageView.image = aCharacter.image;
       //  cell.textLabel.description = aCharacter.desc;
     

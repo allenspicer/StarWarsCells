@@ -17,7 +17,7 @@
         
         aCharacter = [[Character alloc]init];
         aCharacter.name = [characterDict objectForKey:@"name"];
-        aCharacter.type = [characterDict objectForKey:@"name"];
+        aCharacter.type = [characterDict objectForKey:@"type"];
         aCharacter.image = [characterDict objectForKey:@"value"];
         aCharacter.desc = [characterDict objectForKey:@"description"];
     }
