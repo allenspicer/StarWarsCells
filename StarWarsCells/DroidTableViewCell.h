@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DroidTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end

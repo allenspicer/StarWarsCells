@@ -337,6 +337,7 @@
 				9F3474E41CDA967400AAFF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

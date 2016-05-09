@@ -68,36 +68,33 @@
         
         LightSideTableViewCell *lightSideCell = (LightSideTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"LightSideIdentifier" forIndexPath:indexPath];
         
-        
-        lightSideCell.nameLabel = aCharacter.name;
-//        lightSideCell.textColor = [UIColor redColor];
-//        lightSideCell.backgroundColor = [UIColor blackColor];
-        
-
+        lightSideCell.nameLabel.text = aCharacter.name;
+        lightSideCell.nameLabel.textColor = [UIColor blueColor];
+        lightSideCell.nameLabel.backgroundColor = [UIColor whiteColor];
         return lightSideCell;
     }
 
     if ([aCharacter.type isEqualToString:@"DarkSide"]) {
         DarkSideTableViewCell *darkSideCell = (DarkSideTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"DarkSideIdentifier" forIndexPath:indexPath];
-        darkSideCell.textLabel.text = aCharacter.name;
-        darkSideCell.textLabel.textColor = [UIColor redColor];
-        darkSideCell.backgroundColor = [UIColor blackColor];
+        darkSideCell.nameLabel.text = aCharacter.name;
+        darkSideCell.nameLabel.textColor = [UIColor redColor];
+        darkSideCell.nameLabel.backgroundColor = [UIColor blackColor];
         return darkSideCell;
     }
     
     if ([aCharacter.type isEqualToString:@"Undecided"]) {
         UndecidedTableViewCell *undecidedCell = (UndecidedTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"UndecidedIdentifier" forIndexPath:indexPath];
-        undecidedCell.textLabel.text = aCharacter.name;
-        undecidedCell.textLabel.textColor = [UIColor greenColor];
-        undecidedCell.backgroundColor = [UIColor grayColor];
+        undecidedCell.nameLabel.text = aCharacter.name;
+        undecidedCell.nameLabel.textColor = [UIColor greenColor];
+        undecidedCell.nameLabel.backgroundColor = [UIColor grayColor];
         return undecidedCell;
     }
     
     if ([aCharacter.type isEqualToString:@"Droid"]) {
         DroidTableViewCell *droidCell = (DroidTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"DroidIdentifier" forIndexPath:indexPath];
-        droidCell.textLabel.text = aCharacter.name;
-        droidCell.textLabel.textColor = [UIColor grayColor];
-        droidCell.backgroundColor = [UIColor darkGrayColor];
+        droidCell.nameLabel.text = aCharacter.name;
+        droidCell.nameLabel.textColor = [UIColor grayColor];
+        droidCell.nameLabel.backgroundColor = [UIColor darkGrayColor];
         return droidCell;
 
     }

@@ -10,13 +10,7 @@
 
 @interface LightSideTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet NSString *nameLabel;
-
-//@property (weak, nonatomic) IBOutlet NSString * text;
-@property (weak, nonatomic) IBOutlet UIColor * textColor;
-@property (weak, nonatomic) IBOutlet UIColor * backgroundColor;
-
-
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 
 
