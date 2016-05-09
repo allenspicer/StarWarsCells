@@ -65,10 +65,15 @@
     Character *aCharacter = self.characters[indexPath.row];
     
     if ([aCharacter.type isEqualToString:@"LightSide"]) {
+        
         LightSideTableViewCell *lightSideCell = (LightSideTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"LightSideIdentifier" forIndexPath:indexPath];
-        lightSideCell.textLabel.text = aCharacter.name;
-        lightSideCell.textLabel.textColor = [UIColor whiteColor];
-        lightSideCell.backgroundColor = [UIColor blueColor];
+        
+        
+        lightSideCell.nameLabel = aCharacter.name;
+//        lightSideCell.textColor = [UIColor redColor];
+//        lightSideCell.backgroundColor = [UIColor blackColor];
+        
+
         return lightSideCell;
     }
 
